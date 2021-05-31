@@ -4,11 +4,16 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "webpack --mode production"
   },
   "author": "kenyo",
   "license": "ISC",
   "dependencies": {
+    "@graviton/dropdown": "^1.1.5",
     "lit-element": "^2.5.1"
+  },
+  "devDependencies": {
+    "webpack": "^5.38.1",
+    "webpack-cli": "^4.7.0"
   }
 }

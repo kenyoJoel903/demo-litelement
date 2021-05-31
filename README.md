@@ -24,4 +24,14 @@ npm i lit-element
 polymer serve
 ```
 
+##InsInstalar webpack, para hacer build del proyecto
+```bash
+npm install -D webpack webpack-cli
+```
+
+##Para generar los archivos para produccion
+```bash
+npm run build
+```
+
 

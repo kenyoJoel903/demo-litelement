@@ -2,11 +2,17 @@ import { LitElement, html } from 'lit-element';
 
 export class MyElement extends LitElement {
 
+    static get properties() {
+        return {
+            quien: { type: String }
+        };
+    }
+
  
 
     render() {
         return html`
-            <p>Soy My Element</p>
+            <p>Hola ${this.quien}</p>
         `;
     }
 }
